@@ -1,0 +1,91 @@
+.home-container{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.img-container {
+    position: relative;
+    height: 850px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.background-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    opacity: 0.7; 
+}
+
+.green-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 255, 0, 0.1); 
+    pointer-events: none; 
+}
+
+.overlay-content{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.oheading{
+    color: rgb(20, 179, 180);
+    background-color: white;
+    padding: 10px 15px;
+    font-family: arial;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.odesc{
+    color: black;
+    font-family: arial;
+    font-size: 100px;
+    font-weight: bold;
+    width: 1200px;
+    margin-bottom: 20px;
+}
+
+.osmalldesc{
+    color: black;
+    font-family: arial;
+    font-size: 20px;
+    width: 1100px;
+    margin-bottom: 50px;
+    line-height: 35px;
+}
+
+.obutton{
+    color: rgb(20, 179, 180) ;
+    background-color: white;
+    padding: 20px 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.obutton:hover{
+    background-color: rgb(20, 179, 180);
+    color: white;
+}
+
+.obutton:active{
+    color: rgb(20, 179, 180) ;
+    background-color: white;
+}

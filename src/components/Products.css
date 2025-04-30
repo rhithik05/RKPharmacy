@@ -1,0 +1,157 @@
+.product-container {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: rgb(231, 228, 228);
+}
+
+.product-section {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  height: 700px;
+}
+
+.p-section {
+  flex: 6;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+}
+
+.g-section {
+  flex-wrap: nowrap;
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding: 10px 10px;
+  justify-content: center;
+  gap: 50px;
+}
+
+.g-card {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  font-family: arial;
+  color: rgb(20, 179, 180);
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 210px;
+}
+
+.g-logo {
+  margin-bottom: 10px;
+}
+
+.g-head {
+  margin-bottom: 10px;
+}
+
+.g-body {
+  font-size: 18px;
+  color: rgba(73, 73, 73, 0.979);
+  line-height: 25px;
+}
+
+.products-holder {
+  margin-top: 70px;
+  display: flex;
+  width: auto;
+  flex-wrap: nowrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  width: auto;
+}
+
+.product-card img {
+  border-radius: 10px;
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 40px;
+}
+
+.p-heading {
+  font-family: arial;
+  font-weight: bold;
+  color: rgba(94, 93, 93, 0.979);
+  font-size: 30px;
+  display: flex;
+}
+
+.p-heading1 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.p-heading2 {
+  font-size: 18px;
+  color: rgb(20, 179, 180);
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.p-card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.p-card-price {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(20, 179, 180);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.slashed {
+  text-decoration: line-through;
+  color: rgb(20, 179, 180);
+  opacity: 0.5;
+}
+
+.notslashed {
+  text-decoration: underline !important;
+  color: rgb(20, 179, 180);
+  font-weight: bold;
+  margin-left: 5px;
+}
+.p-card-button {
+  color: white;
+  background-color: rgb(20, 179, 180);
+  padding: 10px 15px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.p-card-button:hover {
+  background-color: rgba(24, 24, 24, 0.548);
+  color: rgb(20, 179, 180);
+}
+
+.p-card-button:active {
+  color: white;
+  background-color: rgb(20, 179, 180);
+}

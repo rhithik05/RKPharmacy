@@ -1,0 +1,15 @@
+.sponsors-container{
+    height: 180px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sponsors-container img{
+    height: 30px;
+    object-fit: contain;
+    
+}

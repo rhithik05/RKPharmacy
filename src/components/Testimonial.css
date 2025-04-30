@@ -1,0 +1,116 @@
+.testimonial-container {
+  height: 1100px;
+  position: relative;
+}
+
+.tbackground-img {
+  height: 1100px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+.tgreen-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(22, 158, 131, 0.7);
+  pointer-events: none;
+}
+
+.toverlay-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.toheading {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.todesc {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.tosmalldesc {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 25px;
+  width: 1000px;
+  margin-bottom: 70px;
+}
+
+.testmonial-reviews-container {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+
+.reviews-card {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  align-items: center;
+  padding: 30px;
+}
+
+.reviews-card img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.review-profile {
+  display: flex;
+}
+
+.review-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  width: 400px;
+  font-style: italic;
+  margin-bottom: 40px;
+  color: rgba(73, 73, 73, 0.8);
+  line-height: 35px;
+}
+
+.reviews-name {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.personname {
+  font-size: 20px;
+  color: rgb(20, 179, 180);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.occupation {
+  font-size: 19px;
+  color: rgba(73, 73, 73, 0.979);
+}

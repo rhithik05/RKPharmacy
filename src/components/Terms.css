@@ -1,0 +1,41 @@
+.terms-section {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 20px;
+}
+.terms-section h1 {
+  color: #2a6496;
+  text-align: center;
+  border-bottom: 2px solid #4bbb7d;
+  padding-bottom: 10px;
+}
+.terms-section h2 {
+  color: #4bbb7d;
+  margin-top: 30px;
+}
+
+.contact-info {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.note {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 1px dashed #ccc;
+}
+.terms-section ul {
+  padding-left: 20px;
+}
+.terms-section li {
+  margin-bottom: 10px;
+}
+.terms-section strong {
+  color: #2a6496;
+}

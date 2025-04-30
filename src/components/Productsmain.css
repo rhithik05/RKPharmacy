@@ -1,0 +1,141 @@
+.mproducts-page {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background-color: #f8f8f8;
+    font-size: 20px;
+  }
+  
+  .sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 15px;
+    cursor: pointer;
+    color: #333;
+    transition: 0.2s;
+  }
+  
+  .sidebar li:hover,
+  .sidebar li.active {
+    font-weight: bold;
+    color: #4bbaa5;
+  }
+  
+  .mproducts-holder {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+
+.mproducts-holder {
+    margin-top: 70px;
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+  }
+  
+  .mproduct-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: auto;
+    margin-bottom: 30px;
+  }
+  
+  .mproduct-card img {
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 40px;
+  }
+  
+  .mp-heading {
+    font-family: arial;
+    font-weight: bold;
+    color: rgba(94, 93, 93, 0.979);
+    font-size: 30px;
+    display: flex;
+  }
+  
+  .mp-heading1 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .mp-heading2 {
+    font-size: 18px;
+    color: rgb(20, 179, 180);
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .mp-card-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+  }
+  
+  .mp-card-price {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(20, 179, 180);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  .mslashed {
+    text-decoration: line-through;
+    color: rgb(20, 179, 180);
+    opacity: 0.5;
+  }
+  
+  .mnotslashed {
+    text-decoration: underline !important;
+    color: rgb(20, 179, 180);
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  .mp-card-button {
+    color: white;
+    background-color: rgb(20, 179, 180);
+    padding: 10px 15px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .mp-card-button:hover {
+    background-color: rgba(24, 24, 24, 0.548);
+    color: rgb(20, 179, 180);
+  }
+  
+  .mp-card-button:active {
+    color: white;
+    background-color: rgb(20, 179, 180);
+  }
